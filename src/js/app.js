@@ -4,3 +4,4 @@ import "./menu-toggler";
 import "./modal";
 import "./link-smooth";
 import "./carousel";
+import "./accordion";

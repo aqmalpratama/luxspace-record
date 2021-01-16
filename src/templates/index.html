@@ -99,7 +99,7 @@
               <li class="ml-6 block">
                 <a
                   href="cart.html"
-                  class="flex items-center justify-center w-8 h-8 text-black hover:text-white"
+                  class="flex items-center justify-center w-8 h-8 text-black hover:text-white cart cart-filled"
                 >
                   <svg
                     class="fill-current"
@@ -124,13 +124,15 @@
                     <path
                       d="M25.6499 4.88404C25.407 4.58092 25.0472 4.40711 24.6626 4.40711H4.82655L4.42595 2.42947C4.34232 2.01694 4.06563 1.67055 3.68565 1.50276L0.890528 0.268963C0.567841 0.126419 0.192825 0.276999 0.0528584 0.60505C-0.0872597 0.933204 0.0608116 1.31463 0.383347 1.45696L3.17852 2.69081L6.2598 17.9014C6.38117 18.5004 6.90578 18.9352 7.50723 18.9352H22.7635C23.1152 18.9352 23.4003 18.6452 23.4003 18.2876C23.4003 17.9299 23.1152 17.64 22.7635 17.64H7.50728L7.13247 15.7897H22.8814C23.4828 15.7897 24.0075 15.3549 24.1288 14.7559L25.9101 5.96349C25.9876 5.58063 25.8928 5.1871 25.6499 4.88404ZM22.8814 14.4946H6.87012L5.08895 5.70226L24.6626 5.70231L22.8814 14.4946Z"
                     />
-                    <circle
+                    <g class="text-pink-400">
+                      <circle
                       cx="25"
                       cy="4.89023"
                       r="4"
                       fill="#F9CADA"
-                      class="cart-filled"
-                    />
+                      class="fill-current dot"
+                      />
+                    </g>
                   </svg>
                 </a>
               </li>
@@ -300,7 +302,7 @@
       <div class="container mx-auto mb-4">
         <div class="flex justify-center text-center mb-4">
           <h3 class="text-2xl capitalize font-semibold">
-            just arrived <br />this summer for you
+            just arrived <br/>this summer for you
           </h3>
         </div>
       </div>
@@ -321,9 +323,7 @@
             </div>
             <h5 class="text-lg font-semibold mt-4">Cangkir Mauttie</h5>
             <span class="">IDR 50.000</span>
-            <a href="#details.html" class="stretched-link w-full">
-              <!--tes  -->
-            </a>
+            <a href="#details.html" class="stretched-link w-full"></a>
           </div>
           <!-- End item carousel 1 -->
 
@@ -335,15 +335,13 @@
             >
               <img
                 src="./images/content/image-carousel-2.png"
-                alt="cangkir"
+                alt="kursi"
                 class="w-full h-full object-cover object-center"
               />
             </div>
             <h5 class="text-lg font-semibold mt-4">Bangkyu Minimax</h5>
             <span class="">IDR 89.999</span>
-            <a href="#details.html" class="stretched-link w-full">
-              <!--tes  -->
-            </a>
+            <a href="#details.html" class="stretched-link w-full"></a>
           </div>
           <!-- End item carousel 2 -->
 
@@ -355,15 +353,13 @@
             >
               <img
                 src="./images/content/image-carousel-3.png"
-                alt="cangkir"
+                alt="buku"
                 class="w-full h-full object-cover object-center"
               />
             </div>
             <h5 class="text-lg font-semibold mt-4">Buku Sidu Edition</h5>
             <span class="">IDR 125.999</span>
-            <a href="#details.html" class="stretched-link w-full">
-              <!--tes  -->
-            </a>
+            <a href="#details.html" class="stretched-link w-full"></a>
           </div>
           <!-- End item carousel 3 -->
 
@@ -375,15 +371,13 @@
             >
               <img
                 src="./images/content/image-carousel-4.png"
-                alt="cangkir"
+                alt="jam tangan"
                 class="w-full h-full object-cover object-center"
               />
             </div>
-            <h5 class="text-lg font-semibold mt-4">Watch Note X</h5>
+            <h5 class="text-lg font-semibold mt-4">Watch Note Xxx</h5>
             <span class="">IDR 7.399.999</span>
-            <a href="#details.html" class="stretched-link w-full">
-              <!--tes  -->
-            </a>
+            <a href="#details.html" class="stretched-link w-full"></a>
           </div>
           <!-- End item carousel 4 -->
 
@@ -395,14 +389,13 @@
             >
               <img
                 src="./images/content/image-carousel-5.png"
-                alt="cangkir"
+                alt="racking"
                 class="w-full h-full object-cover object-center"
               />
             </div>
             <h5 class="text-lg font-semibold mt-4">Racking Plants</h5>
             <span class="">IDR 1.399.999</span>
-            <a href="#details.html" class="stretched-link w-full">
-              <!--tes  -->
+            <a href="##details.html" class="stretched-link w-full">
             </a>
           </div>
           <!-- End item carousel 5 -->
@@ -415,14 +408,13 @@
             >
               <img
                 src="./images/content/image-carousel-2.png"
-                alt="cangkir"
+                alt="bangku"
                 class="w-full h-full object-cover object-center"
               />
             </div>
-            <h5 class="text-lg font-semibold mt-4">Bangkyu Minimax</h5>
+            <h5 class="text-lg font-semibold mt-4">Bangkyu Minimaxx</h5>
             <span class="">IDR 89.999</span>
             <a href="#details.html" class="stretched-link w-full">
-              <!--tes  -->
             </a>
           </div>
           <!-- End item carousel 2 -->
@@ -430,8 +422,119 @@
       </div>
     </section>
     <!-- End Just Arrived -->
-    <div class="min-h-screen"></div>
 
+    <!-- Start clients -->
+    <section class="container mx-auto py-8">
+      <div class="flex justify-center flex-wrap">
+        <div class="w-full flex-auto md:w-auto md:flex-initial px-4 md:px-6 my-4 md:my-0">
+          <img src="./images/content/image-client-1.png" alt="" class="mx-auto">
+        </div>
+        <div class="w-full flex-auto md:w-auto md:flex-initial px-4 md:px-6 my-4 md:my-0">
+          <img src="./images/content/image-client-2.png" alt="" class="mx-auto">
+        </div>
+        <div class="w-full flex-auto md:w-auto md:flex-initial px-4 md:px-6 my-4 md:my-0">
+          <img src="./images/content/image-client-3.png" alt="" class="mx-auto">
+        </div>
+        <div class="w-full flex-auto md:w-auto md:flex-initial px-4 md:px-6 my-4 md:my-0">
+          <img src="./images/content/image-client-4.png" alt="" class="mx-auto">
+        </div>
+
+      </div>
+    </section>
+    <!-- End clients -->
+ 
+    <!-- Start aside menu -->
+    <section class="">
+      <div class="border-t border-gray-200 py-12 mt-16 px-4">
+        <div class="flex justify-center mb-8">
+          <img src="./images/design/logo.svg" alt="">
+        </div>
+        <aside class="container mx-auto">
+          <div class="flex flex-wrap md:space-x-4 justify-center">
+            <!-- Start item aside 1 -->
+            <div class="w-full md:w-2/12 mb-4 md:mb-0 accordion">
+              <h5 class="text-xl font-semibold mb-2 relative">
+                Overview
+              </h5>
+              <ul class="h-0 invisible md:h-auto md:visible overflow-hidden">
+                <li>
+                  <a href="#" class="hover:underline py-1 block">Shipping</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline py-1 block">Refund</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline py-1 block">Information</a>
+                </li>
+              </ul>
+            </div>
+            <!-- End item aside 1 -->
+            <!-- Start item aside 2 -->
+            <div class="w-full md:w-2/12 mb-4 md:mb-0 accordion">
+              <h5 class="text-xl font-semibold mb-2 relative">
+                Company
+              </h5>
+              <ul class="h-0 invisible md:h-auto md:visible overflow-hidden">
+                <li>
+                  <a href="#" class="hover:underline py-1 block">About</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline py-1 block">Career</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline py-1 block">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <!-- End item aside 2 -->
+            <!-- Start item aside 3 -->
+            <div class="w-full md:w-2/12 mb-4 md:mb-0 accordion">
+              <h5 class="text-xl font-semibold mb-2 relative">
+                Explore
+              </h5>
+              <ul class="h-0 invisible md:h-auto md:visible overflow-hidden">
+                <li>
+                  <a href="#" class="hover:underline py-1 block">Terms & Conds</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline py-1 block">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline py-1 block">For Developer</a>
+                </li>
+              </ul>
+            </div>
+            <!-- End item aside 3 -->
+            <!-- Start item aside 4 -->
+            <div class="w-full md:w-3/12 mb-4 md:mb-0">
+              <h5 class="text-xl font-semibold mb-2 relative">
+                Special Letter
+              </h5>
+              <form action="#">
+                <label for="" class="relative w-full">
+                  <input type="text" class="bg-gray-100 rounded-xl py-4 px-5 w-full focus:outline-none" placeholder="Your Email Address . . ."/>
+                  <button class="bg-pink-400 absolute rounded-xl right-0 p-3 text-white">
+                    <svg class="fill-current" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M23.6177 0.411971C23.6163 0.410624 23.6152 0.409187 23.6138 0.407839C23.6124 0.406492 23.6109 0.405414 23.6095 0.404157C23.236 0.049307 22.7002 -0.0573008 22.2098 0.126411L0.833871 8.13353C0.268743 8.34518 -0.0623361 8.87521 0.0098048 9.4523C0.0821332 10.0294 0.53462 10.4694 1.13589 10.547L11.5833 11.8968C11.6028 11.8994 11.6185 11.9143 11.6212 11.9332L13.0301 21.9417C13.1112 22.5177 13.5704 22.9512 14.1729 23.0204C14.2279 23.0268 14.2824 23.0298 14.3364 23.0298C14.8735 23.0298 15.3486 22.7229 15.5495 22.231L23.9077 1.75274C24.0994 1.28302 23.9882 0.76983 23.6177 0.411971ZM1.30534 9.34475C1.2819 9.34169 1.27136 9.34039 1.26728 9.30788C1.26325 9.27537 1.27319 9.27159 1.29508 9.26347L21.2946 1.77187L11.9404 10.7333C11.8794 10.7163 1.30534 9.34475 1.30534 9.34475ZM14.37 21.7892C14.3614 21.8102 14.358 21.8198 14.3236 21.8158C14.2897 21.8119 14.2883 21.8017 14.2852 21.7794C14.2852 21.7794 12.8535 11.6495 12.8358 11.5911L22.19 2.62972L14.37 21.7892Z"/>
+                    </svg>
+                  </button>
+                </label>
+              </form>
+            </div>
+            <!-- End item aside 4 -->
+            
+          </div>
+        </aside>
+      </div>
+    </section>
+    <!-- End aside menu -->
+
+    <!-- Start Footer -->
+    <footer class="flex text-center px-4 py-8 justify-center border-t border-gray-200">
+      <p class="text-sm">Copyright 2021 • All Rights Reserved LuxSpace by Aqmal Pratama</p>
+    </footer>
+    <!-- End Footer -->
+    
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
       window.ga = function () {
