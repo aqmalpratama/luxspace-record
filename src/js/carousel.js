@@ -1,11 +1,11 @@
 import { addClass, removeClass } from "./utils-class";
 
 // 1. bikin constanta buat get id carousel
-const carouselId = document.getElementById("carousel");
+const carouselId = document?.getElementById("carousel");
 // 2. bikin constanta buat get flex pertama class dari id carousel
-const carouselItems = carouselId.getElementsByClassName("flex")[0];
+const carouselItems = carouselId?.getElementsByClassName("flex")[0];
 // 3, bikin constanta buat get container pertama dari id carousel
-const carouselContainer = carouselId.getElementsByClassName("container")[0];
+const carouselContainer = carouselId?.getElementsByClassName("container")[0];
 
 // function pertama, untuk mencari wrapper dr carousel flex
 function carouselCalculateOffset() {

@@ -5,3 +5,4 @@ import "./modal";
 import "./link-smooth";
 import "./carousel";
 import "./accordion";
+import "./slider";
