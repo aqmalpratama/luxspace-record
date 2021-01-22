@@ -2,7 +2,7 @@ const colors = require("tailwindcss/colors");
 
 module.exports = {
   purge: {
-    enabled: true,
+    // enabled: true,
     content: ["./**/*.html", "./**/*.js"],
   },
   presets: [],
@@ -65,6 +65,7 @@ module.exports = {
       64: "16rem",
       72: "18rem",
       80: "20rem",
+      88: "22rem",
       96: "24rem",
     },
     animation: {
@@ -486,6 +487,7 @@ module.exports = {
       20: "0.2",
       25: "0.25",
       30: "0.3",
+      35: "0.35",
       40: "0.4",
       50: "0.5",
       60: "0.6",
