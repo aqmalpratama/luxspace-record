@@ -5,6 +5,25 @@
 @tailwind utilities;
 
 @layer components {
+  .middle {
+    @apply relative;
+  }
+  .middle:after {
+    content: "";
+    @apply absolute w-full bottom-0 left-0 invisible transition-all duration-500 mt-2;
+    height: 2px;
+    transform: scaleX(0);
+  }
+  .middle-w:after {
+    background-color: #fff;
+  }
+  .middle-b:after {
+    background-color: black;
+  }
+  .middle:hover:after {
+    @apply visible;
+    transform: scaleX(1);
+  }
   .overlay {
     @apply absolute;
   }
